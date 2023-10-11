@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SeaBattleOOPWinForms.Form1">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <Members>
+      <Field Name="blbTimes" Hidden="true" />
+      <Field Name="btnBotA_0" Hidden="true" />
+      <Field Name="btnBotA_1" Hidden="true" />
+      <Field Name="btnBotA_2" Hidden="true" />
+      <Field Name="btnBotA_3" Hidden="true" />
+      <Field Name="btnBotA_4" Hidden="true" />
+      <Field Name="btnBotA_5" Hidden="true" />
+      <Field Name="btnBotA_6" Hidden="true" />
+      <Field Name="btnBotA_7" Hidden="true" />
+      <Field Name="btnBotA_8" Hidden="true" />
+      <Field Name="btnBotA_9" Hidden="true" />
+      <Field Name="btnBotB_0" Hidden="true" />
+      <Field Name="btnBotB_1" Hidden="true" />
+      <Field Name="btnBotB_2" Hidden="true" />
+      <Field Name="btnBotB_3" Hidden="true" />
+      <Field Name="btnBotB_4" Hidden="true" />
+      <Field Name="btnBotB_5" Hidden="true" />
+      <Field Name="btnBotB_6" Hidden="true" />
+      <Field Name="btnBotB_7" Hidden="true" />
+      <Field Name="btnBotB_8" Hidden="true" />
+      <Field Name="btnBotB_9" Hidden="true" />
+      <Field Name="btnBotC_0" Hidden="true" />
+      <Field Name="btnBotC_1" Hidden="true" />
+      <Field Name="btnBotC_2" Hidden="true" />
+      <Field Name="btnBotC_3" Hidden="true" />
+      <Field Name="btnBotC_4" Hidden="true" />
+      <Field Name="btnBotC_5" Hidden="true" />
+      <Field Name="btnBotC_6" Hidden="true" />
+      <Field Name="btnBotC_7" Hidden="true" />
+      <Field Name="btnBotC_8" Hidden="true" />
+      <Field Name="btnBotC_9" Hidden="true" />
+      <Field Name="btnBotD_0" Hidden="true" />
+      <Field Name="btnBotD_1" Hidden="true" />
+      <Field Name="btnBotD_2" Hidden="true" />
+      <Field Name="btnBotD_3" Hidden="true" />
+      <Field Name="btnBotD_4" Hidden="true" />
+      <Field Name="btnBotD_5" Hidden="true" />
+      <Field Name="btnBotD_6" Hidden="true" />
+      <Field Name="btnBotD_7" Hidden="true" />
+      <Field Name="btnBotD_8" Hidden="true" />
+      <Field Name="btnBotD_9" Hidden="true" />
+      <Field Name="btnBotE_0" Hidden="true" />
+      <Field Name="btnBotE_1" Hidden="true" />
+      <Field Name="btnBotE_2" Hidden="true" />
+      <Field Name="btnBotE_3" Hidden="true" />
+      <Field Name="btnBotE_4" Hidden="true" />
+      <Field Name="btnBotE_5" Hidden="true" />
+      <Field Name="btnBotE_6" Hidden="true" />
+      <Field Name="btnBotE_7" Hidden="true" />
+      <Field Name="btnBotE_8" Hidden="true" />
+      <Field Name="btnBotE_9" Hidden="true" />
+      <Field Name="btnBotF_0" Hidden="true" />
+      <Field Name="btnBotF_1" Hidden="true" />
+      <Field Name="btnBotF_2" Hidden="true" />
+      <Field Name="btnBotF_3" Hidden="true" />
+      <Field Name="btnBotF_4" Hidden="true" />
+      <Field Name="btnBotF_5" Hidden="true" />
+      <Field Name="btnBotF_6" Hidden="true" />
+      <Field Name="btnBotF_7" Hidden="true" />
+      <Field Name="btnBotF_8" Hidden="true" />
+      <Field Name="btnBotF_9" Hidden="true" />
+      <Field Name="btnBotG_0" Hidden="true" />
+      <Field Name="btnBotG_1" Hidden="true" />
+      <Field Name="btnBotG_2" Hidden="true" />
+      <Field Name="btnBotG_3" Hidden="true" />
+      <Field Name="btnBotG_4" Hidden="true" />
+      <Field Name="btnBotG_5" Hidden="true" />
+      <Field Name="btnBotG_6" Hidden="true" />
+      <Field Name="btnBotG_7" Hidden="true" />
+      <Field Name="btnBotG_8" Hidden="true" />
+      <Field Name="btnBotG_9" Hidden="true" />
+      <Field Name="btnBotH_0" Hidden="true" />
+      <Field Name="btnBotH_1" Hidden="true" />
+      <Field Name="btnBotH_2" Hidden="true" />
+      <Field Name="btnBotH_3" Hidden="true" />
+      <Field Name="btnBotH_4" Hidden="true" />
+      <Field Name="btnBotH_5" Hidden="true" />
+      <Field Name="btnBotH_6" Hidden="true" />
+      <Field Name="btnBotH_7" Hidden="true" />
+      <Field Name="btnBotH_8" Hidden="true" />
+      <Field Name="btnBotH_9" Hidden="true" />
+      <Field Name="btnBotI_0" Hidden="true" />
+      <Field Name="btnBotI_1" Hidden="true" />
+      <Field Name="btnBotI_2" Hidden="true" />
+      <Field Name="btnBotI_3" Hidden="true" />
+      <Field Name="btnBotI_4" Hidden="true" />
+      <Field Name="btnBotI_5" Hidden="true" />
+      <Field Name="btnBotI_6" Hidden="true" />
+      <Field Name="btnBotI_7" Hidden="true" />
+      <Field Name="btnBotI_8" Hidden="true" />
+      <Field Name="btnBotI_9" Hidden="true" />
+      <Field Name="btnBotJ_0" Hidden="true" />
+      <Field Name="btnBotJ_1" Hidden="true" />
+      <Field Name="btnBotJ_2" Hidden="true" />
+      <Field Name="btnBotJ_3" Hidden="true" />
+      <Field Name="btnBotJ_4" Hidden="true" />
+      <Field Name="btnBotJ_5" Hidden="true" />
+      <Field Name="btnBotJ_6" Hidden="true" />
+      <Field Name="btnBotJ_7" Hidden="true" />
+      <Field Name="btnBotJ_8" Hidden="true" />
+      <Field Name="btnBotJ_9" Hidden="true" />
+      <Field Name="btnExit" Hidden="true" />
+      <Field Name="btnPlay" Hidden="true" />
+      <Field Name="btnPlayer0_0" Hidden="true" />
+      <Field Name="btnPlayer0_1" Hidden="true" />
+      <Field Name="btnPlayer0_2" Hidden="true" />
+      <Field Name="btnPlayer0_3" Hidden="true" />
+      <Field Name="btnPlayer0_4" Hidden="true" />
+      <Field Name="btnPlayer0_5" Hidden="true" />
+      <Field Name="btnPlayer0_6" Hidden="true" />
+      <Field Name="btnPlayer0_7" Hidden="true" />
+      <Field Name="btnPlayer0_8" Hidden="true" />
+      <Field Name="btnPlayer0_9" Hidden="true" />
+      <Field Name="btnPlayer1_0" Hidden="true" />
+      <Field Name="btnPlayer1_1" Hidden="true" />
+      <Field Name="btnPlayer1_2" Hidden="true" />
+      <Field Name="btnPlayer1_3" Hidden="true" />
+      <Field Name="btnPlayer1_4" Hidden="true" />
+      <Field Name="btnPlayer1_5" Hidden="true" />
+      <Field Name="btnPlayer1_6" Hidden="true" />
+      <Field Name="btnPlayer1_7" Hidden="true" />
+      <Field Name="btnPlayer1_8" Hidden="true" />
+      <Field Name="btnPlayer1_9" Hidden="true" />
+      <Field Name="btnPlayer2_0" Hidden="true" />
+      <Field Name="btnPlayer2_1" Hidden="true" />
+      <Field Name="btnPlayer2_2" Hidden="true" />
+      <Field Name="btnPlayer2_3" Hidden="true" />
+      <Field Name="btnPlayer2_4" Hidden="true" />
+      <Field Name="btnPlayer2_5" Hidden="true" />
+      <Field Name="btnPlayer2_6" Hidden="true" />
+      <Field Name="btnPlayer2_7" Hidden="true" />
+      <Field Name="btnPlayer2_8" Hidden="true" />
+      <Field Name="btnPlayer2_9" Hidden="true" />
+      <Field Name="btnPlayer3_0" Hidden="true" />
+      <Field Name="btnPlayer3_1" Hidden="true" />
+      <Field Name="btnPlayer3_2" Hidden="true" />
+      <Field Name="btnPlayer3_3" Hidden="true" />
+      <Field Name="btnPlayer3_4" Hidden="true" />
+      <Field Name="btnPlayer3_5" Hidden="true" />
+      <Field Name="btnPlayer3_6" Hidden="true" />
+      <Field Name="btnPlayer3_7" Hidden="true" />
+      <Field Name="btnPlayer3_8" Hidden="true" />
+      <Field Name="btnPlayer3_9" Hidden="true" />
+      <Field Name="btnPlayer4_0" Hidden="true" />
+      <Field Name="btnPlayer4_1" Hidden="true" />
+      <Field Name="btnPlayer4_2" Hidden="true" />
+      <Field Name="btnPlayer4_3" Hidden="true" />
+      <Field Name="btnPlayer4_4" Hidden="true" />
+      <Field Name="btnPlayer4_5" Hidden="true" />
+      <Field Name="btnPlayer4_6" Hidden="true" />
+      <Field Name="btnPlayer4_7" Hidden="true" />
+      <Field Name="btnPlayer4_8" Hidden="true" />
+      <Field Name="btnPlayer4_9" Hidden="true" />
+      <Field Name="btnPlayer5_0" Hidden="true" />
+      <Field Name="btnPlayer5_1" Hidden="true" />
+      <Field Name="btnPlayer5_2" Hidden="true" />
+      <Field Name="btnPlayer5_3" Hidden="true" />
+      <Field Name="btnPlayer5_4" Hidden="true" />
+      <Field Name="btnPlayer5_5" Hidden="true" />
+      <Field Name="btnPlayer5_6" Hidden="true" />
+      <Field Name="btnPlayer5_7" Hidden="true" />
+      <Field Name="btnPlayer5_8" Hidden="true" />
+      <Field Name="btnPlayer5_9" Hidden="true" />
+      <Field Name="btnPlayer6_0" Hidden="true" />
+      <Field Name="btnPlayer6_1" Hidden="true" />
+      <Field Name="btnPlayer6_2" Hidden="true" />
+      <Field Name="btnPlayer6_3" Hidden="true" />
+      <Field Name="btnPlayer6_4" Hidden="true" />
+      <Field Name="btnPlayer6_5" Hidden="true" />
+      <Field Name="btnPlayer6_6" Hidden="true" />
+      <Field Name="btnPlayer6_7" Hidden="true" />
+      <Field Name="btnPlayer6_8" Hidden="true" />
+      <Field Name="btnPlayer6_9" Hidden="true" />
+      <Field Name="btnPlayer7_0" Hidden="true" />
+      <Field Name="btnPlayer7_1" Hidden="true" />
+      <Field Name="btnPlayer7_2" Hidden="true" />
+      <Field Name="btnPlayer7_3" Hidden="true" />
+      <Field Name="btnPlayer7_4" Hidden="true" />
+      <Field Name="btnPlayer7_5" Hidden="true" />
+      <Field Name="btnPlayer7_6" Hidden="true" />
+      <Field Name="btnPlayer7_7" Hidden="true" />
+      <Field Name="btnPlayer7_8" Hidden="true" />
+      <Field Name="btnPlayer7_9" Hidden="true" />
+      <Field Name="btnPlayer8_0" Hidden="true" />
+      <Field Name="btnPlayer8_1" Hidden="true" />
+      <Field Name="btnPlayer8_2" Hidden="true" />
+      <Field Name="btnPlayer8_3" Hidden="true" />
+      <Field Name="btnPlayer8_4" Hidden="true" />
+      <Field Name="btnPlayer8_5" Hidden="true" />
+      <Field Name="btnPlayer8_6" Hidden="true" />
+      <Field Name="btnPlayer8_7" Hidden="true" />
+      <Field Name="btnPlayer8_8" Hidden="true" />
+      <Field Name="btnPlayer8_9" Hidden="true" />
+      <Field Name="btnPlayer9_0" Hidden="true" />
+      <Field Name="btnPlayer9_1" Hidden="true" />
+      <Field Name="btnPlayer9_2" Hidden="true" />
+      <Field Name="btnPlayer9_3" Hidden="true" />
+      <Field Name="btnPlayer9_4" Hidden="true" />
+      <Field Name="btnPlayer9_5" Hidden="true" />
+      <Field Name="btnPlayer9_6" Hidden="true" />
+      <Field Name="btnPlayer9_7" Hidden="true" />
+      <Field Name="btnPlayer9_8" Hidden="true" />
+      <Field Name="btnPlayer9_9" Hidden="true" />
+      <Field Name="btnRestart" Hidden="true" />
+      <Field Name="btnShuffle" Hidden="true" />
+      <Field Name="btnStop" Hidden="true" />
+      <Field Name="checkWinner" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="doFireBot" Hidden="true" />
+      <Field Name="doTime" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label10" Hidden="true" />
+      <Field Name="label11" Hidden="true" />
+      <Field Name="label12" Hidden="true" />
+      <Field Name="label13" Hidden="true" />
+      <Field Name="label14" Hidden="true" />
+      <Field Name="label15" Hidden="true" />
+      <Field Name="label16" Hidden="true" />
+      <Field Name="label17" Hidden="true" />
+      <Field Name="label18" Hidden="true" />
+      <Field Name="label19" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label20" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="label7" Hidden="true" />
+      <Field Name="label8" Hidden="true" />
+      <Field Name="label9" Hidden="true" />
+      <Field Name="lblStepBot" Hidden="true" />
+      <Field Name="lblStepPlayer" Hidden="true" />
+      <Field Name="lblStepsBot" Hidden="true" />
+      <Field Name="lblStepsPlayer" Hidden="true" />
+      <Field Name="lblTime" Hidden="true" />
+      <Field Name="letter_A" Hidden="true" />
+      <Field Name="letter_B" Hidden="true" />
+      <Field Name="letter_C" Hidden="true" />
+      <Field Name="letter_D" Hidden="true" />
+      <Field Name="letter_E" Hidden="true" />
+      <Field Name="letter_F" Hidden="true" />
+      <Field Name="letter_G" Hidden="true" />
+      <Field Name="letter_H" Hidden="true" />
+      <Field Name="letter_I" Hidden="true" />
+      <Field Name="letter_J" Hidden="true" />
+      <Field Name="number_1" Hidden="true" />
+      <Field Name="number_10" Hidden="true" />
+      <Field Name="number_2" Hidden="true" />
+      <Field Name="number_3" Hidden="true" />
+      <Field Name="number_4" Hidden="true" />
+      <Field Name="number_5" Hidden="true" />
+      <Field Name="number_6" Hidden="true" />
+      <Field Name="number_7" Hidden="true" />
+      <Field Name="number_8" Hidden="true" />
+      <Field Name="number_9" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>/wBARKlaEGAhMFAABICQKC4CAOAAIABhgPawz/8IYDY=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_state" />
+      <Field Name="_game" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SeaBattleBL.Game" Collapsed="true">
+    <Position X="3.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SeaBattleOOPWinForms.Fire">
+    <Position X="3.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAABAAADAAAAAAAAAA=</HashCode>
+      <FileName>UI\Fire.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="fireState" />
+    </ShowAsAssociation>
+  </Class>
+  <Enum Name="SeaBattleBL.GameState" Collapsed="true">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="SeaBattleBL.FireState" Collapsed="true">
+    <Position X="3.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

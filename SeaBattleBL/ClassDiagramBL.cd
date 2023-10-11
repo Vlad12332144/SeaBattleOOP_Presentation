@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SeaBattleBL.HitingTheSamePointExeption">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BL\Exeption\HitingTheSamePointExeption.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SeaBattleBL.Cell">
+    <Position X="8.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAYAA=</HashCode>
+      <FileName>BL\Field\Cells\Cell.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_location" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SeaBattleBL.CellChangedEventArgs">
+    <Position X="14.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>BL\Field\Cells\CellChanged\CellChangedEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SeaBattleBL.Deck">
+    <Position X="7.5" Y="6.25" Width="1.5" />
+    <AssociationLine Name="_ownerShip" Type="SeaBattleBL.Ship" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.844" Y="6.25" />
+        <Point X="7.844" Y="2.25" />
+        <Point X="3.75" Y="2.25" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>BL\Field\Cells\Deck.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_ownerShip" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SeaBattleBL.Ship">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <AssociationLine Name="_decks" Type="SeaBattleBL.Deck" ManuallyRouted="true">
+      <Path>
+        <Point X="3.75" Y="2.663" />
+        <Point X="7.641" Y="2.663" />
+        <Point X="7.641" Y="6.25" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAEAAAAAAAAAAAAgBAAAAAggAgAAAAEA=</HashCode>
+      <FileName>BL\Field\Cells\Ships\Ship.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_decks" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="SeaBattleBL.FourDeckShip">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAACAAAAAAAAAABAAAAAgAAgAAAAEA=</HashCode>
+      <FileName>BL\Field\Cells\Ships\ShipsOnDecks\FourDeckShip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SeaBattleBL.OneDeckShip">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAACAAAAAAAAAABAAAAAgAAgAAAAEA=</HashCode>
+      <FileName>BL\Field\Cells\Ships\ShipsOnDecks\OneDeckShip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SeaBattleBL.ThreeDeckShip">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAACAAAAAAAAAABAAAAAgAAgAAAAEA=</HashCode>
+      <FileName>BL\Field\Cells\Ships\ShipsOnDecks\ThreeDeckShip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SeaBattleBL.TwoDeckShip">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <InheritanceLine Type="SeaBattleBL.Ship" ManuallyRouted="true">
+      <Path>
+        <Point X="3" Y="3.276" />
+        <Point X="3" Y="4.081" />
+        <Point X="1.25" Y="4.081" />
+        <Point X="1.25" Y="4.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAACAAAAAAAAAABAAAAAgAAgAAAAEA=</HashCode>
+      <FileName>BL\Field\Cells\Ships\ShipsOnDecks\TwoDeckShip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SeaBattleBL.Shoot">
+    <Position X="9.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BL\Field\Cells\Shoot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SeaBattleBL.Field">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAQAAAAAAABAkEBCAQwDAAoAIAABAABAxAAAAAAgAA=</HashCode>
+      <FileName>BL\Field\Field.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_cellChanged" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SeaBattleBL.Game">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <AssociationLine Name="_playerShips" Type="SeaBattleBL.Ship" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.25" Y="3.875" />
+        <Point X="7.927" Y="3.875" Type="JumpStart" />
+        <Point X="7.76" Y="3.875" Type="JumpEnd" />
+        <Point X="7.723" Y="3.875" />
+        <Point X="7.723" Y="3.881" />
+        <Point X="3.406" Y="3.881" />
+        <Point X="3.406" Y="3.276" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.075" Y="0.339" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="_player" Type="SeaBattleBL.Player">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="-0.138" Y="-0.255" Height="0.182" Width="0.712" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>NAAAAIAIAAAAAAgAAAACCAAAkAAQACEAAAQAIQAAAAA=</HashCode>
+      <FileName>BL\Game.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_playerField" />
+      <Field Name="_botField" />
+      <Field Name="_playerShips" />
+      <Field Name="_botShips" />
+      <Field Name="_player" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SeaBattleBL.Randomizer">
+    <Position X="14.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAACAACA=</HashCode>
+      <FileName>BL\Help class\Randomizer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SeaBattleBL.Validator">
+    <Position X="14.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>BL\Help class\Validator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SeaBattleBL.Bot">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BL\Player\Bot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SeaBattleBL.Player">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAACAAA=</HashCode>
+      <FileName>BL\Player\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="SeaBattleBL.Coordinate">
+    <Position X="10.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAIAAAABgAAAAAiA=</HashCode>
+      <FileName>BL\Field\Cells\Coordinate.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="SeaBattleBL.GameState">
+    <Position X="14.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAgAgAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>BL\Help class\GameState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="SeaBattleBL.FieldCellStateChanged">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BL\Field\Cells\CellChanged\FireCellEventHandler.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

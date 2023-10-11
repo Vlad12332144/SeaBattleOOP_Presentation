@@ -1,0 +1,12 @@
+C:\Users\vlad\source\repos\Diskreminant\SeaBattleOOP\SeaBattleBL\obj\Debug\SeaBattleBL.csproj.AssemblyReference.cache
+C:\Users\vlad\source\repos\Diskreminant\SeaBattleOOP\SeaBattleBL\obj\Debug\SeaBattleBL.csproj.CoreCompileInputs.cache
+C:\Users\vlad\source\repos\Diskreminant\SeaBattleOOP\SeaBattleBL\bin\Debug\SeaBattleBL.dll
+C:\Users\vlad\source\repos\Diskreminant\SeaBattleOOP\SeaBattleBL\bin\Debug\SeaBattleBL.pdb
+C:\Users\vlad\source\repos\Diskreminant\SeaBattleOOP\SeaBattleBL\obj\Debug\SeaBattleBL.dll
+C:\Users\vlad\source\repos\Diskreminant\SeaBattleOOP\SeaBattleBL\obj\Debug\SeaBattleBL.pdb
+C:\Users\vlad\Documents\GitHub\SeaBattleOOP_Prethentation\SeaBattleOOP\SeaBattleBL\bin\Debug\SeaBattleBL.dll
+C:\Users\vlad\Documents\GitHub\SeaBattleOOP_Prethentation\SeaBattleOOP\SeaBattleBL\bin\Debug\SeaBattleBL.pdb
+C:\Users\vlad\Documents\GitHub\SeaBattleOOP_Prethentation\SeaBattleOOP\SeaBattleBL\obj\Debug\SeaBattleBL.csproj.AssemblyReference.cache
+C:\Users\vlad\Documents\GitHub\SeaBattleOOP_Prethentation\SeaBattleOOP\SeaBattleBL\obj\Debug\SeaBattleBL.csproj.CoreCompileInputs.cache
+C:\Users\vlad\Documents\GitHub\SeaBattleOOP_Prethentation\SeaBattleOOP\SeaBattleBL\obj\Debug\SeaBattleBL.dll
+C:\Users\vlad\Documents\GitHub\SeaBattleOOP_Prethentation\SeaBattleOOP\SeaBattleBL\obj\Debug\SeaBattleBL.pdb
